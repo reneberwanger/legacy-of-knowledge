@@ -1,0 +1,20 @@
+﻿l_english:
+    legacy_of_knowledge_decision: "Create a Legacy of Knowledge" 
+    legacy_of_knowledge_decision_effect: "Bestows 1/3 of your accumulated [perks|lE] as a gift to your next successor."
+    legacy_of_knowledge_decision_tooltip: "Bestows 1/3 of your accumulated [perks|lE] as a gift to your next successor."
+    legacy_of_knowledge_decision_confirm: "Create my legacy of knowledge" 
+    legacy_of_knowledge_decision_desc: "As a ruler, I have acquired vast knowledge and expertise throughout my reign. To ensure that my wisdom is not lost with my passing, I shall compile my experiences and insights into a comprehensive journal. This 'Legacy of Knowledge' will serve as a guide for my successor, allowing them to benefit from my hard-earned lessons and continue to lead our realm to prosperity.\n\n@warning_icon! #warning Please note: Creating a Legacy of Knowledge is a solemn act that can only be performed once in a lifetime.#!"
+    
+    legacy_of_knowledge.0001.title: "Writing My Legacy"
+    legacy_of_knowledge.0001.desc: "As I sit here in the quiet of my study, the weight of my crown ever present, my thoughts turn to you, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V]. How swiftly the time passes, and soon, it will be you sitting where I am, bearing the burdens of our realm. Throughout my reign, I've faced myriad challenges and reaped the rewards of triumphs, each moment a lesson in governance and the human spirit.\n\nThese pages I now fill are not merely reflections, but a guide crafted for you, my successor. Within them, I've poured all the wisdom I've acquired, hoping they will light your path through the intricacies of leadership and the inevitable trials you will face. It is my deepest hope that these notes will not merely survive my passing but will thrive in your hands, empowering you to lead with the same dedication and insight that guided me. May this legacy be a beacon for you, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V], as you navigate the future of our people."
+    legacy_of_knowledge.0001.option: "May my successor benefit well!"
+    
+    legacy_of_knowledge.0002.title: "Inheritance of Knowledge"
+    legacy_of_knowledge.0002.desc: "My beloved heir, [GetPlayer.GetFirstName],\n\nAs you step into the role of leadership, know that I have left behind my accumulated wisdom and experiences in the form of these writings. Throughout my reign, I have faced many challenges, learned countless lessons, and discovered the intricacies of ruling our realm. I hope that these documents serve as a guide and a source of strength for you. They contain the knowledge I have painstakingly gathered over the years, meant to aid you in your journey and help you avoid the pitfalls that I once encountered.\n\nIt is my sincere hope that you will find these writings useful and that they will inspire you to lead with wisdom, courage, and compassion. May they empower you to continue our legacy and bring prosperity to our people. Remember, the path of a ruler is fraught with trials, but with the wisdom contained in these pages, you will be well-equipped to face whatever challenges come your way. Lead with honor, and may our realm flourish under your guidance."
+    legacy_of_knowledge.0002.option: "I shall honor your legacy."
+
+    diplomacy_lifestyle_perks: "@skill_diplomacy_icon! Has 5 or more Diplomacy Perk Points"
+    martial_lifestyle_perks: "@skill_martial_icon! Has 5 or more Martial Perk Points"
+    stewardship_lifestyle_perks: "@skill_stewardship_icon! Has 5 or more Stewardship Perk Points"
+    intrigue_lifestyle_perks: "@skill_intrigue_icon! Has 5 or more Intrigue Perk Points"
+    learning_lifestyle_perks: "@skill_learning_icon! Has 5 or more Learning Perk Points"

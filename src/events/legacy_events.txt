@@ -1,0 +1,134 @@
+﻿namespace = legacy_of_knowledge
+
+legacy_of_knowledge.0001 = {
+    type = character_event
+    theme = memory_positive
+    id = legacy_of_knowledge.0001
+    title = legacy_of_knowledge.0001.title
+    desc = legacy_of_knowledge.0001.desc
+
+    right_portrait = {
+		character = ROOT
+		animation = throne_room_writer
+	}
+
+    trigger = {
+        NOT = { has_character_flag = legacy_of_knowledge_created }
+    }
+
+    immediate = {
+
+        set_global_variable = {
+            name = half_diplomacy_perks
+            value = { 
+                value = diplomacy_lifestyle_perks
+                multiply = 0.33
+            }
+        }
+
+        set_global_variable = {
+            name = half_martial_perks
+            value = { 
+                value = martial_lifestyle_perks
+                multiply = 0.33
+            }
+        }
+
+        set_global_variable = {
+            name = half_stewardship_perks
+            value = { 
+                value = stewardship_lifestyle_perks
+                multiply = 0.33
+            }
+        }
+
+        set_global_variable = {
+            name = half_intrigue_perks
+            value = { 
+                value = intrigue_lifestyle_perks
+                multiply = 0.33
+            }
+        }
+
+        set_global_variable = {
+            name = half_learning_perks
+            value = { 
+                value = learning_lifestyle_perks
+                multiply = 0.33
+            }
+        }
+
+        add_character_flag = {
+			flag = legacy_of_knowledge_created
+		}
+    }
+    
+    option = {
+        name = legacy_of_knowledge.0001.option
+    }
+}
+
+
+
+legacy_of_knowledge.0002 = {
+    type = character_event
+    theme = memory_positive
+    id = legacy_of_knowledge.0002
+    title = legacy_of_knowledge.0002.title
+    desc = legacy_of_knowledge.0002.desc
+
+
+    right_portrait = {
+		character = ROOT
+		animation = happiness
+	}
+
+    trigger = {
+        has_character_flag = legacy_of_knowledge
+    }
+
+    immediate = {
+        if = {
+            limit = {
+                exists = global_var:half_diplomacy_perks
+            }
+            add_diplomacy_lifestyle_perk_points = global_var:half_diplomacy_perks
+        }
+        if = {
+            limit = {
+                exists = global_var:half_martial_perks
+            }
+            add_martial_lifestyle_perk_points = global_var:half_martial_perks
+        }
+        if = {
+            limit = {
+                exists = global_var:half_stewardship_perks
+            }
+            add_stewardship_lifestyle_perk_points = global_var:half_stewardship_perks
+        }
+        if = {
+            limit = {
+                exists = global_var:half_intrigue_perks
+            }
+            add_intrigue_lifestyle_perk_points = global_var:half_intrigue_perks
+        }
+        if = {
+            limit = {
+                exists = global_var:half_learning_perks
+            }
+            add_learning_lifestyle_perk_points = global_var:half_learning_perks
+        }
+
+        remove_character_flag = legacy_of_knowledge
+        remove_character_flag = legacy_of_knowledge_created
+        remove_global_variable = half_diplomacy_perks
+        remove_global_variable = half_martial_perks
+        remove_global_variable = half_stewardship_perks
+        remove_global_variable = half_intrigue_perks
+        remove_global_variable = half_learning_perks
+    }
+    
+    option = {
+        name = legacy_of_knowledge.0002.option
+    }
+}

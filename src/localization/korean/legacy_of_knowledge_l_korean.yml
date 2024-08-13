@@ -1,0 +1,20 @@
+l_korean:
+    legacy_of_knowledge_decision: "지식의 유산 만들기"
+    legacy_of_knowledge_decision_effect: "축적된 [perks|lE]의 1/3을 다음 후계자에게 선물로 줍니다."
+    legacy_of_knowledge_decision_tooltip: "축적된 [perks|lE]의 1/3을 다음 후계자에게 선물로 줍니다."
+    legacy_of_knowledge_decision_confirm: "내 지식의 유산 만들기"
+    legacy_of_knowledge_decision_desc: "통치자로서, 저는 재임 동안 방대한 지식과 전문성을 획득했습니다. 제 지혜가 저의 죽음과 함께 사라지지 않도록, 저는 제 경험과 통찰력을 종합적인 일기로 작성할 것입니다. 이 '지식의 유산'은 제 후계자를 위한 지침서가 되어, 그들이 제가 힘들게 얻은 교훈을 활용하고 우리 왕국을 번영으로 이끌 수 있게 할 것입니다.\n\n@warning_icon! #경고 지식의 유산 만들기는 일생에 단 한 번만 수행할 수 있는 엄숙한 행위입니다.#!"
+    
+    legacy_of_knowledge.0001.title: "내 유산을 쓰다"
+    legacy_of_knowledge.0001.desc: "제 서재의 고요함 속에 앉아, 항상 느껴지는 왕관의 무게 속에서, 제 생각은 당신에게로 향합니다, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V]. 시간이 얼마나 빨리 흐르는지, 곧 당신이 제가 있는 자리에 앉아 우리 왕국의 부담을 짊어지게 될 것입니다. 제 재임 기간 동안, 저는 수많은 도전에 직면했고, 그 도전들에서 승리를 거두었으며, 각 순간이 통치와 인간 정신에 대한 교훈이었습니다.\n\n이제 제가 채우는 이 페이지들은 단순한 반성문이 아니라, 제 후계자인 당신을 위해 작성된 지침서입니다. 그 안에는 제가 획득한 모든 지혜를 담았습니다. 이 지혜들이 당신이 리더십의 복잡성과 불가피한 시련을 헤쳐 나가는 데 도움이 되기를 바랍니다. 이 노트들이 제 죽음 후에도 살아남아 당신의 손에서 번영하고, 저를 이끌었던 헌신과 통찰력으로 당신을 이끌기를 바랍니다. 이 유산이 당신에게 등대가 되어, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V], 우리 사람들의 미래를 이끌어 가는 동안 도움이 되기를 바랍니다."
+    legacy_of_knowledge.0001.option: "내 후계자가 잘 혜택을 누리기를!"
+
+    legacy_of_knowledge.0002.title: "지식의 유산"
+    legacy_of_knowledge.0002.desc: "사랑하는 후계자, [GetPlayer.GetFirstName],\n\n당신이 리더십 역할을 맡게 될 때, 제가 이 글들을 통해 축적된 지혜와 경험을 남겼다는 것을 알아주십시오. 제 재임 기간 동안, 저는 많은 도전에 직면했고, 수많은 교훈을 배웠으며, 우리 왕국을 통치하는 복잡성을 발견했습니다. 이 문서들이 당신에게 지침서와 힘의 원천이 되기를 바랍니다. 이 문서들은 제가 수년간 힘들게 모은 지식을 담고 있으며, 당신의 여정에서 도움을 주고 제가 한때 겪었던 함정을 피하도록 돕기 위해 마련되었습니다.\n\n이 글들이 유용하게 사용되기를 진심으로 바라며, 당신이 지혜, 용기, 연민으로 이끌도록 영감을 주기를 바랍니다. 이 글들이 당신을 우리 유산을 이어가고 우리 국민에게 번영을 가져다줄 수 있는 힘을 주기를 바랍니다. 통치자의 길은 시련으로 가득 차 있지만, 이 페이지에 담긴 지혜로 당신은 어떤 도전에도 잘 대비할 수 있을 것입니다. 명예롭게 이끌고, 당신의 지도 아래 우리 왕국이 번영하기를 바랍니다."
+    legacy_of_knowledge.0002.option: "당신의 유산을 존경할 것입니다."
+
+    diplomacy_lifestyle_perks: "@skill_diplomacy_icon! 외교 기술 포인트가 5 이상"
+    martial_lifestyle_perks: "@skill_martial_icon! 군사 기술 포인트가 5 이상"
+    stewardship_lifestyle_perks: "@skill_stewardship_icon! 관리 기술 포인트가 5 이상"
+    intrigue_lifestyle_perks: "@skill_intrigue_icon! 음모 기술 포인트가 5 이상"
+    learning_lifestyle_perks: "@skill_learning_icon! 학습 기술 포인트가 5 이상"

@@ -1,0 +1,54 @@
+﻿legacy_of_knowledge_decision = {
+    ai_check_frequency = 0
+
+    picture = "gfx/illustrations/decision_create_a_legacy.dds"
+    desc = legacy_of_knowledge_decision_desc
+    confirm_text = legacy_of_knowledge_decision_confirm
+
+    major = yes
+
+    cost = {
+        prestige = 2000
+        gold = 1000
+    }   
+
+    is_shown = {
+        NOT = {  has_character_flag = legacy_of_knowledge_created }
+        age >= 50
+        primary_title = {
+            tier >= 4
+        }
+        OR = {
+            diplomacy_lifestyle_perks >= 5
+            martial_lifestyle_perks >= 5
+            stewardship_lifestyle_perks >= 5
+            intrigue_lifestyle_perks >= 5
+            learning_lifestyle_perks >= 5
+        }
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+
+    is_valid = {
+        age >= 50
+        primary_title = {
+            tier >= 4
+        }
+        OR = {
+            diplomacy_lifestyle_perks >= 5
+            martial_lifestyle_perks >= 5
+            stewardship_lifestyle_perks >= 5
+            intrigue_lifestyle_perks >= 5
+            learning_lifestyle_perks >= 5
+        }
+    }
+
+    effect = {
+        prestige = -2000
+        gold = -1000
+        custom_tooltip = legacy_of_knowledge_decision_effect
+        trigger_event = { id = legacy_of_knowledge.0001 }
+    }
+}

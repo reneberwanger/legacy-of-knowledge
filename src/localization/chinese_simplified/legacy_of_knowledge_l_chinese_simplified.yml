@@ -1,0 +1,20 @@
+﻿l_chinese_simplified:
+    legacy_of_knowledge_decision: "创造知识遗产"
+    legacy_of_knowledge_decision_effect: "将你积累的1/3[perks|lE]作为礼物赠予你的下一个继承人。"
+    legacy_of_knowledge_decision_tooltip: "将你积累的1/3[perks|lE]作为礼物赠予你的下一个继承人。"
+    legacy_of_knowledge_decision_confirm: "创造我的知识遗产"
+    legacy_of_knowledge_decision_desc: "作为统治者，我在整个统治期间积累了丰富的知识和经验。为了确保我的智慧不会随着我的离去而消失，我将把我的经验和见解编成一本全面的日记。这本'知识遗产'将作为我继承人的指南，让他们受益于我辛苦获得的教训，继续引领我们的王国走向繁荣。\n\n@warning_icon! #警告 请注意：创造知识遗产是一项庄重的行为，一生只能进行一次。#!"
+    
+    legacy_of_knowledge.0001.title: "书写我的遗产"
+    legacy_of_knowledge.0001.desc: "当我坐在书房的静谧中，时刻感受着皇冠的重量，我的思绪转向了你，[GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V]。时间过得如此之快，不久之后，将是你坐在我现在的位置上，肩负我们王国的重担。在我的统治期间，我面临了无数挑战，收获了胜利的果实，每一刻都是治理和人类精神的教训。\n\n这些我现在填满的页面不仅仅是反思，而是为你，我的继承人精心设计的指南。在其中，我倾注了我所获得的所有智慧，希望它们能照亮你通过领导的复杂性和你将面临的不可避免的考验的道路。我的最大希望是，这些笔记不仅能在我离去后生存下来，还能在你手中蓬勃发展，让你以同样的奉献精神和洞察力来领导我所指引的。愿这份遗产成为你在治理我们土地的挑战中航行时的灯塔，[GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V]。"
+    legacy_of_knowledge.0001.option: "愿我的继承人受益匪浅！"
+
+    legacy_of_knowledge.0002.title: "知识的继承"
+    legacy_of_knowledge.0002.desc: "我亲爱的继承人，[GetPlayer.GetFirstName]，\n\n当你走上领导岗位时，请知道我已经把我积累的智慧和经验以这些文字的形式留下来了。在我的统治期间，我面对了许多挑战，学到了无数的教训，并发现了治理我们王国的复杂性。我希望这些文件能成为你的指南和力量的源泉。它们包含了我多年来艰苦收集的知识，旨在帮助你在你的旅程中，并帮助你避免我曾经遇到的陷阱。\n\n我真诚地希望你会发现这些文字有用，并希望它们能激励你以智慧、勇气和同情心领导。愿它们能赋予你继续我们的遗产，并为我们的人民带来繁荣的力量。记住，统治者的道路充满了考验，但凭借这些页面中包含的智慧，你将做好准备面对任何挑战。以荣誉为指导，愿我们的王国在你的领导下繁荣昌盛。"
+    legacy_of_knowledge.0002.option: "我将尊重你的遗产。"
+
+    diplomacy_lifestyle_perks: "@skill_diplomacy_icon! 拥有5个或更多的外交技能点"
+    martial_lifestyle_perks: "@skill_martial_icon! 拥有5个或更多的军事技能点"
+    stewardship_lifestyle_perks: "@skill_stewardship_icon! 拥有5个或更多的管理技能点"
+    intrigue_lifestyle_perks: "@skill_intrigue_icon! 拥有5个或更多的阴谋技能点"
+    learning_lifestyle_perks: "@skill_learning_icon! 拥有5个或更多的学习技能点"

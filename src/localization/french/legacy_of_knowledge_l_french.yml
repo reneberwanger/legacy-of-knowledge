@@ -1,0 +1,20 @@
+l_french:
+    legacy_of_knowledge_decision: "Créer un héritage de connaissances"
+    legacy_of_knowledge_decision_effect: "Confère 1/3 de vos [perks|lE] accumulés en cadeau à votre prochain successeur."
+    legacy_of_knowledge_decision_tooltip: "Confère 1/3 de vos [perks|lE] accumulés en cadeau à votre prochain successeur."
+    legacy_of_knowledge_decision_confirm: "Créer mon héritage de connaissances"
+    legacy_of_knowledge_decision_desc: "En tant que dirigeant, j'ai acquis une vaste connaissance et expertise tout au long de mon règne. Pour m'assurer que ma sagesse ne soit pas perdue avec ma disparition, je vais compiler mes expériences et mes connaissances dans un journal complet. Cet 'Héritage de Connaissances' servira de guide à mon successeur, lui permettant de bénéficier de mes leçons durement apprises et de continuer à diriger notre royaume vers la prospérité.\n\n@warning_icon! #avertissement Veuillez noter : La création d'un Héritage de Connaissances est un acte solennel qui ne peut être réalisé qu'une seule fois dans une vie.#!"
+    
+    legacy_of_knowledge.0001.title: "Écrire mon héritage"
+    legacy_of_knowledge.0001.desc: "Alors que je suis assis ici dans le calme de mon bureau, le poids de ma couronne toujours présent, mes pensées se tournent vers toi, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V]. Comme le temps passe vite, et bientôt, ce sera toi qui seras assis là où je suis, portant les fardeaux de notre royaume. Tout au long de mon règne, j'ai affronté de nombreux défis et récolté les récompenses des triomphes, chaque moment étant une leçon de gouvernance et d'esprit humain.\n\nCes pages que je remplis maintenant ne sont pas seulement des réflexions, mais un guide conçu pour toi, mon successeur. À l'intérieur, j'ai versé toute la sagesse que j'ai acquise, espérant qu'elles éclaireront ton chemin à travers les complexités du leadership et les inévitables épreuves que tu rencontreras. J'espère profondément que ces notes ne survivront pas seulement à ma disparition, mais qu'elles prospéreront entre tes mains, te permettant de diriger avec la même dévouement et perspicacité qui m'ont guidé. Puissent cet héritage être une balise pour toi, [GetPlayer.GetPrimaryTitle.GetHeir.GetShortUIName|V], alors que tu navigues les défis de la gouvernance de notre terre."
+    legacy_of_knowledge.0001.option: "Que mon successeur en profite bien!"
+
+    legacy_of_knowledge.0002.title: "Héritage de connaissances"
+    legacy_of_knowledge.0002.desc: "Mon cher héritier, [GetPlayer.GetFirstName],\n\nAlors que tu prends les rênes du pouvoir, sache que j'ai laissé derrière moi mes connaissances et expériences accumulées sous forme de ces écrits. Tout au long de mon règne, j'ai affronté de nombreux défis, appris d'innombrables leçons et découvert les subtilités de la gouvernance de notre royaume. J'espère que ces documents te serviront de guide et de source de force. Ils contiennent les connaissances que j'ai péniblement accumulées au fil des années, destinées à t'aider dans ton parcours et à t'éviter les écueils que j'ai rencontrés autrefois.\n\nJ'espère sincèrement que tu trouveras ces écrits utiles et qu'ils t'inspireront à diriger avec sagesse, courage et compassion. Puissent-ils t'encourager à continuer notre héritage et à apporter la prospérité à notre peuple. Souviens-toi, le chemin d'un dirigeant est semé d'embûches, mais avec la sagesse contenue dans ces pages, tu seras bien équipé pour faire face à tous les défis qui se présenteront à toi. Dirige avec honneur, et que notre royaume prospère sous ta gouverne."
+    legacy_of_knowledge.0002.option: "Je vais honorer ton héritage."
+
+    diplomacy_lifestyle_perks: "@skill_diplomacy_icon! A 5 points de compétence en Diplomatie ou plus"
+    martial_lifestyle_perks: "@skill_martial_icon! A 5 points de compétence en Militaire ou plus"
+    stewardship_lifestyle_perks: "@skill_stewardship_icon! A 5 points de compétence en Gestion ou plus"
+    intrigue_lifestyle_perks: "@skill_intrigue_icon! A 5 points de compétence en Intrigue ou plus"
+    learning_lifestyle_perks: "@skill_learning_icon! A 5 points de compétence en Apprentissage ou plus"

@@ -1,0 +1,18 @@
+﻿on_death = {
+    effect = {
+		if = {
+			limit = {
+				has_character_flag = legacy_of_knowledge_created
+			}
+			player_heir = {
+				add_character_flag = {
+					flag = legacy_of_knowledge
+				}
+				trigger_event = { 
+					id = legacy_of_knowledge.0002 
+					days = {15 90} 
+				}
+			}
+		}
+	}
+}
