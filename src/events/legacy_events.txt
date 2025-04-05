@@ -13,7 +13,7 @@ legacy_of_knowledge.0001 = {
 	}
 
     trigger = {
-        NOT = { has_character_flag = legacy_of_knowledge_created }
+        # NOT = { has_character_flag = legacy_of_knowledge_created }
     }
 
     immediate = {
